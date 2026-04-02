@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8314c35e85cacb04bb9f2afbce50d23a, type: 3}
+  m_Name: NewDialogData
+  m_EditorClassIdentifier: 
+  dialogId: 
+  npcName: "\u5546\u4EBA"
+  description: 
+  nodes:
+  - nodeId: 0
+    speakerName: "\u5546\u4EBA"
+    content:
+    - "\u4F60\u597D\u554A\uFF0C\u8981\u4E70\u4EC0\u4E48\u4E1C\u897F\u5417"
+    - "\u54C8\u54C8\u54C8\u54C8\u55DD"
+    options:
+    - optionText: "\u4F60\u662F\u505A\u4EC0\u4E48\u5DE5\u4F5C\u7684"
+      nextNodeId: 1
+      condition:
+        hasCondition: 0
+        questId: 
+        requiredState: 0
+      action:
+        hasAction: 0
+        type: 0
+        questId: 
+        shopPrefab: {fileID: 0}
+      description: 
+    - optionText: "\u770B\u770B\u5546\u5E97"
+      nextNodeId: 
+      condition:
+        hasCondition: 0
+        questId: 
+        requiredState: 0
+      action:
+        hasAction: 1
+        type: 3
+        questId: 
+        shopPrefab: {fileID: 9148011642590499099, guid: 665df1d96afc6da4cbe6e92199987270, type: 3}
+      description: 
+    - optionText: "\u6709\u4E00\u4E2A\u8BF7\u6C42"
+      nextNodeId: 2
+      condition:
+        hasCondition: 1
+        questId: 1
+        requiredState: 1
+      action:
+        hasAction: 0
+        type: 0
+        questId: 
+        shopPrefab: {fileID: 0}
+      description: 
+    - optionText: "\u5B8C\u6210\u8BF7\u6C42\u4E86"
+      nextNodeId: 3
+      condition:
+        hasCondition: 1
+        questId: 1
+        requiredState: 3
+      action:
+        hasAction: 1
+        type: 2
+        questId: 1
+        shopPrefab: {fileID: 0}
+      description: "\u5B8C\u6210\u4EFB\u52A1\u4E86\uFF0C\u53D1\u653E\u5956\u52B1"
+    enterCondition:
+      hasCondition: 0
+      questId: 
+      requiredState: 0
+    description: 
+  - nodeId: 1
+    speakerName: "\u5546\u4EBA"
+    content:
+    - "\u6211\u662F\u4E2A\u5546\u4EBA\uFF0C\u6211\u5356\u4E1C\u897F"
+    - "\u8981\u4E70\u70B9\u4E1C\u897F\u5417\uFF1F"
+    options:
+    - optionText: "\u4E0D\u4E70\uFF0C\u518D\u89C1\uFF01"
+      nextNodeId: 
+      condition:
+        hasCondition: 0
+        questId: 
+        requiredState: 0
+      action:
+        hasAction: 0
+        type: 0
+        questId: 
+        shopPrefab: {fileID: 0}
+      description: 
+    - optionText: "\u770B\u770B\u5546\u5E97"
+      nextNodeId: 
+      condition:
+        hasCondition: 0
+        questId: 
+        requiredState: 0
+      action:
+        hasAction: 1
+        type: 3
+        questId: 
+        shopPrefab: {fileID: 9148011642590499099, guid: 665df1d96afc6da4cbe6e92199987270, type: 3}
+      description: 
+    enterCondition:
+      hasCondition: 0
+      questId: 
+      requiredState: 0
+    description: 
+  - nodeId: 2
+    speakerName: "\u5546\u4EBA"
+    content:
+    - "\u4F60\u77E5\u9053\u8FD9\u91CC\u6709\u602A\u7269\u5427"
+    - "\u5E2E\u6211\u6740\u4E00\u53EA\u56DE\u6765"
+    - "\u6211\u4F1A\u7ED9\u4F60\u4E30\u539A\u7684\u5956\u52B1"
+    - "\u600E\u4E48\u6837\uFF1F"
+    options:
+    - optionText: "\u53EF\u4EE5"
+      nextNodeId: 
+      condition:
+        hasCondition: 0
+        questId: 
+        requiredState: 0
+      action:
+        hasAction: 1
+        type: 1
+        questId: 1
+        shopPrefab: {fileID: 0}
+      description: "\u63A5\u53D6\u4EFB\u52A1id\u4E3A1\u7684\u4EFB\u52A1"
+    - optionText: "\u4E0D\u4E86"
+      nextNodeId: 
+      condition:
+        hasCondition: 0
+        questId: 
+        requiredState: 0
+      action:
+        hasAction: 0
+        type: 0
+        questId: 
+        shopPrefab: {fileID: 9148011642590499099, guid: 665df1d96afc6da4cbe6e92199987270, type: 3}
+      description: 
+    enterCondition:
+      hasCondition: 0
+      questId: 
+      requiredState: 0
+    description: "\u4EFB\u52A1\u8282\u70B9"
+  - nodeId: 3
+    speakerName: "\u5546\u4EBA"
+    content:
+    - "\u592A\u611F\u8C22\u4F60\u4E86"
+    - "\u4F60\u4E00\u5B9A\u662F\u4E00\u4E2A\u597D\u4EBA"
+    - "\u8981\u770B\u770B\u5546\u5E97\u5417"
+    options:
+    - optionText: "\u770B\u770B"
+      nextNodeId: 
+      condition:
+        hasCondition: 0
+        questId: 
+        requiredState: 0
+      action:
+        hasAction: 1
+        type: 3
+        questId: 
+        shopPrefab: {fileID: 9148011642590499099, guid: 665df1d96afc6da4cbe6e92199987270, type: 3}
+      description: 
+    - optionText: "\u8D70\u4E86"
+      nextNodeId: 
+      condition:
+        hasCondition: 0
+        questId: 
+        requiredState: 0
+      action:
+        hasAction: 0
+        type: 0
+        questId: 
+        shopPrefab: {fileID: 0}
+      description: 
+    enterCondition:
+      hasCondition: 0
+      questId: 
+      requiredState: 0
+    description: 
+  startNodeId: 0
+  allowRepeat: 0
+  repeatNodeId: 

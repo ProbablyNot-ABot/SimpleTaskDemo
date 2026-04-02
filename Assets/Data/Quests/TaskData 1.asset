@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea0f755763ad1c42960c8af9d4a3c73, type: 3}
+  m_Name: TaskData 1
+  m_EditorClassIdentifier: 
+  taskId: 1
+  taskName: "\u5F88\u6709\u8DA3\u7684\u4EFB\u52A1"
+  reciveNpcId: 1
+  submitNpcId: 1
+  description: "\u8FD9\u4E2A\u4EFB\u52A1\u662F\u5E72\u751A\u4E48\u5462\uFF0C\u8FD9\u4E2A\u4EFB\u52A1\u5F53\u7136\u662F\u4E3A\u4E86\u5B8C\u6210\u4EFB\u52A1\u800C\u8BBE\u7F6E\u7684\uFF0C\u8FD9\u4E2A\u4EFB\u52A1\u662F\u4E00\u4E2A\u5F88\u666E\u901A\u7684\u4EFB\u52A1\uFF0C\u73A9\u5BB6\u53EA\u9700\u8981\u53BB\u505A\u8FD9\u4E2A\u4EFB\u52A1\uFF0C\u7136\u540E\u5B8C\u6210\u4EFB\u52A1\uFF0C\u5B8C\u6210\u4EFB\u52A1\u540E\u5C31\u53EF\u4EE5\u83B7\u5F97\u4EFB\u52A1\u5956\u52B1\uFF01\u867D\u7136\u8FD9\u53EA\u662F\u4E00\u4E2A\u7528\u6765\u51D1\u6570\u7684\u4EFB\u52A1"
+  rewardItems:
+  - item: {fileID: 11400000, guid: 8189de9e97f507d41a2f1c382c075d36, type: 2}
+    itemAmount: 5
+  taskStatus: 1
+  taskTargets:
+  - taskType: 0
+    targetID: 2000
+    targetName: "\u51FB\u6740\u53F2\u83B1\u59C6"
+    requiredAmount: 3
+    currentAmount: 0
+    isCompleted: 0
+  - taskType: 0
+    targetID: 1000
+    targetName: "\u51FB\u6740\u50F5\u5C38"
+    requiredAmount: 2
+    currentAmount: 0
+    isCompleted: 0
+  prerequisiteTaskIds: 
